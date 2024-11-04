@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "game",
+    "slug": "game",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.arunsharma026.game"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e5c24c2c-a697-4502-b735-7a1fd272a654"
+      },
+      "react-native-google-mobile-ads": {
+        "android_app_id": "ca-app-pub-8086273455259861/1815533216" 
+      }
+    }
+  }
+}
